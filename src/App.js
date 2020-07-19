@@ -23,10 +23,5 @@ class App extends React.Component {
     );
   }
 }
-// const mapStateToProps = (state) => {
-//   return {
-//     products: state,
-//   };
-// };
 
 export default App;

@@ -21,7 +21,6 @@ const Products = ({ src, price, title, id }) => {
         <h3>{title}</h3>
         <button onClick={() => cartClick(id)}>Buy me</button>
       </div>
-      {/* <button onClick={addToCart}>Buy me</button> */}
     </div>
   );
 };

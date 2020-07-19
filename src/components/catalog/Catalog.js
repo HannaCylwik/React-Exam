@@ -31,11 +31,6 @@ const Catalog = () => {
       dispatch(fetchProductsFiltered(products, e.target.value));
     };
 
-    // const cartClick = (id) => {
-    //   dispatch(addedToCart(products, id, cart));
-    //   console.log(cart);
-    // };
-
     return (
       <div className={style.catalog__container}>
         <div className={style.filters__container}>
@@ -47,12 +42,9 @@ const Catalog = () => {
               src={prod.image}
               title={prod.name}
               price={prod.amount}
-              // onClick={cartClick(prod.id)}
-              // addToCart={cartClick(prod.id)}
               id={prod.id}
             />
           ))}
-          {/* <p>Cart:{cart}</p> */}
         </div>
       </div>
     );
