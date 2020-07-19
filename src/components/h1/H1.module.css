@@ -1,0 +1,14 @@
+.bigHeader_container {
+    padding: 50px;
+}
+
+.bigHeader {
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+@media(min-width: 1024px) {
+    .bigHeader {
+        font-size: 2rem;
+    }
+}
